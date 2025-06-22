@@ -1,0 +1,280 @@
+/* Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    color: #333;
+    background-color: #1b1717;
+  }
+  
+  header {
+    background: #1c1c1c;
+    padding: 15px 20px;
+  }
+  
+  .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+  }
+  
+  .logo h1 {
+    font-size: 24px;
+    color: #ff3d00;
+  }
+  
+  .nav-links {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+  }
+  
+  .nav-links li a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 16px;
+    transition: color 0.3s;
+  }
+  
+  .nav-links li a:hover {
+    color: #ff3d00;
+  }
+  
+  .search-bar {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+  }
+  
+  .search-bar input {
+    padding: 6px 10px;
+    border: none;
+    border-radius: 4px;
+    outline: none;
+  }
+  
+  .search-bar button {
+    padding: 6px 12px;
+    background: #ff3d00;
+    border: none;
+    color: #fff;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background 0.3s;
+  }
+  
+  .search-bar button:hover {
+    background: #e53900;
+  }
+  
+  /* Responsive */
+  @media(max-width: 768px) {
+    .container {
+      flex-direction: column;
+      gap: 10px;
+    }
+  
+    .nav-links {
+      justify-content: center;
+      flex-wrap: wrap;
+    }
+  
+    .search-bar {
+      width: 100%;
+    }
+  
+    .search-bar input {
+      flex: 1;
+      width: 70%;
+    }
+  
+    .search-bar button {
+      width: 30%;
+    }
+  }
+  
+  .hero {
+    background: url('Oppenheimer-Christopher-Nolan-0-1.width-1024_Kh9HV7C.jpg') center/cover no-repeat;
+    color: #fff;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 0 20px;
+  }
+  
+  .cards {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 20px;
+    padding: 40px 20px;
+  }
+  
+  .card {
+    background: #221b1b;
+    border-radius: 5px;
+    overflow: hidden;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .card img {
+    width: 100%;
+    display: block;
+  }
+  
+  .card h2 {
+    margin: 15px;
+    font-size: 1.2rem;
+    color: #fff;
+    font-weight: 600;
+  }
+  
+  .card p {
+    margin-bottom:10px;
+    flex-grow: 1;
+    color: #fff;
+    font-weight: 600;
+  }
+  
+  .card a {
+    
+    text-decoration: none;
+    color: #26ff00;
+    font-weight: bold;
+  }
+  
+  .card a:hover {
+    text-decoration: underline;
+  }
+  .card:hover{
+    transform: scale(1.02);
+    opacity: 0.9;
+    transition: transform 0.3s;
+  }
+  footer {
+    text-align: center;
+    padding: 20px;
+    background: #222;
+    color: #fff;
+    margin-top: 20px;
+  }
+/* styles.css */
+
+  .pagination{
+    display: grid;
+    grid-template-columns: repeat(11,50px);
+    grid-template-rows: 50px;
+    justify-content: center;
+    align-items: center;
+    gap: 3px;
+    margin: 20px 0;
+    
+  }
+
+  @media(max-width: 700px) {
+    .pagination {
+      grid-template-columns: repeat(5, 50px);
+     
+      gap: 5px;
+    }
+  }
+.pointer{
+    cursor: pointer;
+    padding: 2px 3px;
+     background: #ff3d00;
+   text-align: center;
+   width: 40px;
+    color: #fff;
+    border-radius: 5px;
+    transition: background 0.3s, transform 0.2s;
+}
+.pagination a  {
+    text-decoration:none;
+    color: #fff;
+    font-weight: bold;
+}
+.pointer:hover{
+    background: #e53900;
+    transform: scale(1.05);
+}
+/* download */
+.movies {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 20px;
+  padding: 20px;
+}
+
+.movie-card {
+  background: #1c1c1c;
+  border-radius: 8px;
+  padding: 10px;
+  text-align: center;
+  transition: transform 0.3s;
+}
+.download_header{
+ 
+  margin: 20px 0;
+  color: #fff;
+}
+
+
+.movie-img {
+  width: 70%;
+  border-radius: 5px;
+}
+
+.movie-card h2 {
+  margin: 10px 0;
+  font-size: 1.2rem;
+  color: white
+}
+
+.download-links {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  margin-top: 10px;
+}
+
+.btn {
+  padding: 8px;
+  background: #e50914;
+  color: #fff;
+  text-decoration: none;
+  width: 50%;
+  border-radius: 4px;
+  transition: background 0.3s;
+}
+
+.btn:hover {
+  background: #f40612;
+}
+ .movie-description{
+    color: #fff;
+    font-size: 0.9rem;
+    margin: 50px;
+    text-align: center;
+ }
+    .downloadSection{
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+    }
+    .downloadSection h1{
+
+        color: #fff;
+        margin-bottom: 20px;
+    }
