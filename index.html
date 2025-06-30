@@ -2,211 +2,209 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>MovieVerse | Home-Page</title>
-  <link rel="stylesheet" href="styles.css" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>MoviesVerse Clone</title>
+  <link rel="stylesheet" href="style.css"/>
+  <link rel="shortcut icon" href="Capture.PNG" type="image/x-icon">
+  <!-- Free Font Awesome CDN (No account needed) -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.5.0/css/all.min.css" />
+
+
 </head>
 <body>
-    <header>
-        <div class="container">
-          <div class="logo">
-            <h1>MovieVerse</h1>
-          </div>
-          <nav>
-            <ul class="nav-links">
-              <li><a href="index.html">Home</a></li>
-              <li><a href="#">Movies</a></li>
-              <li><a href="#">Year</a></li>
-              <li><a href="#">Quality</a></li>
-              <li><a href="#">Genre</a></li>
-            </ul>
-          </nav>
-          <div class="search-bar">
-            <input type="text" placeholder="Search movies...">
-            <button type="submit">Search</button>
-          </div>
-        </div>
-      </header>
+  <header class="navbar">
+    <div class="logo-search">
+      <a href="index.html"><div class="logo">MOVIES<span class="glow">VERSE</span></div></a>
+      <div class="search-box">
+        <input type="text" placeholder="What are you looking for?" />
+        <button title="Search"><i class="fas fa-search"></i></button>
+      </div>
+    </div>
 
-  <main>
-    <section class="hero">
-      <h1>Welcome to the Movies Verse</h1>
-      <p>Your premier source for movie reviews and news.</p>
-    </section>
+    <div class="top-buttons">
+      <button class="btn red" id="redbtn">Bollywood</button>
+      <button class="btn green" id="greenbtn">AnimeFlix</button>
+    </div>
+  </header>
 
-    <section id="reviews" class="cards">
-      <article class="card">
-        <img src="p1.jpg" alt="Movie Poster">
-        <h2>Movie Title</h2>
-        <p> 1080p Movies/Series, 1Gb, 2010-2015, 300MB Movies/Series, 480p Movies/Series, 500mb, 700mb, 720p Movies/Series, 900mb, Crime Series, Drama Series, English Tv Show, Hindi Tv Show, NetflixDownload Peaky Blinders (Season 1-6) Dual Audio (Hindi-English) Bluray 480p [190MB] || 720p [520MB] || 1080p [1.1GB]</p>
-        <a href="download.html">Download Link</a>
-      </article>
+  <nav class="menu-bar">
+    <div class="menu-item"><i class="fas fa-home"></i> Home</div>
+    <div class="menu-item"><i class="fas fa-film"></i> Movies</div>
+    <div class="menu-item"><i class="fas fa-link"></i> Genre</div>
+    <div class="menu-item"><i class="fas fa-skull-crossbones"></i> Quality</div>
+    <div class="menu-item"><i class="fas fa-calendar-alt"></i> Year</div>
+    <div class="menu-item"><i class="fas fa-tv"></i> TV Shows</div>
+    <div class="menu-item"><i class="fas fa-globe"></i> Web Series</div>
+    <div class="menu-item">Bollywood</div>
+  </nav>
+  <section class="filter-buttons">
+    <button class="telegram-btn">
+     <div> <i class="fab fa-telegram-plane"></i> JOIN TELEGRAM</div>
+    </button>
+  
+    <button class="filter-btn">Dual Audio</button>
+    <button class="filter-btn">WeB Series</button>
+    <button class="filter-btn">18+ Movies</button>
+    <button class="filter-btn">300MB Movies</button>
+    <button class="filter-btn">480p Movies</button>
+    <button class="filter-btn">720p Movies</button>
+    <button class="filter-btn">1080p Movies</button>
+    <button class="filter-btn">Hindi Series</button>
+    <button class="filter-btn">BollyWood</button>
+  </section>
 
-      <article class="card">
-        <img src="p2.jpg" alt="Movie Poster">
-        <h2>Movie Title</h2>
-        <p> 1080p Movies/Series, 1Gb, 2010-2015, 300MB Movies/Series, 480p Movies/Series, 500mb, 700mb, 720p Movies/Series, 900mb, Crime Series, Drama Series, English Tv Show, Hindi Tv Show, NetflixDownload Peaky Blinders (Season 1-6) Dual Audio (Hindi-English) Bluray 480p [190MB] || 720p [520MB] || 1080p [1.1GB]</p>
-        <a href="download.html">Download Link</a>
-      </article>
 
-      <article class="card">
-        <img src="p3.jpg" alt="Movie Poster">
-        <h2>Movie Title</h2>
-        <p> 1080p Movies/Series, 1Gb, 2010-2015, 300MB Movies/Series, 480p Movies/Series, 500mb, 700mb, 720p Movies/Series, 900mb, Crime Series, Drama Series, English Tv Show, Hindi Tv Show, NetflixDownload Peaky Blinders (Season 1-6) Dual Audio (Hindi-English) Bluray 480p [190MB] || 720p [520MB] || 1080p [1.1GB]</p>
-        <a href="download.html">Download Link</a>
-      </article>
-      <article class="card">
-        <img src="p4.jpg" alt="Movie Poster">
-        <h2>Movie Title</h2>
-        <p> 1080p Movies/Series, 1Gb, 2010-2015, 300MB Movies/Series, 480p Movies/Series, 500mb, 700mb, 720p Movies/Series, 900mb, Crime Series, Drama Series, English Tv Show, Hindi Tv Show, NetflixDownload Peaky Blinders (Season 1-6) Dual Audio (Hindi-English) Bluray 480p [190MB] || 720p [520MB] || 1080p [1.1GB]</p>
-        <a href="download.html">Download Link</a>
-      </article>
-      <article class="card">
-        <img src="p5.jpg" alt="Movie Poster">
-        <h2>Movie Title</h2>
-        <p> 1080p Movies/Series, 1Gb, 2010-2015, 300MB Movies/Series, 480p Movies/Series, 500mb, 700mb, 720p Movies/Series, 900mb, Crime Series, Drama Series, English Tv Show, Hindi Tv Show, NetflixDownload Peaky Blinders (Season 1-6) Dual Audio (Hindi-English) Bluray 480p [190MB] || 720p [520MB] || 1080p [1.1GB]</p>
-        <a href="download.html">Download Link</a>
-      </article>
-      <article class="card">
-        <img src="p1.jpg" alt="Movie Poster">
-        <h2>Movie Title</h2>
-        <p> 1080p Movies/Series, 1Gb, 2010-2015, 300MB Movies/Series, 480p Movies/Series, 500mb, 700mb, 720p Movies/Series, 900mb, Crime Series, Drama Series, English Tv Show, Hindi Tv Show, NetflixDownload Peaky Blinders (Season 1-6) Dual Audio (Hindi-English) Bluray 480p [190MB] || 720p [520MB] || 1080p [1.1GB]</p>
-        <a href="download.html">Download Link</a>
-      </article>
-      <article class="card">
-        <img src="p2.jpg" alt="Movie Poster">
-        <h2>Movie Title</h2>
-        <p> 1080p Movies/Series, 1Gb, 2010-2015, 300MB Movies/Series, 480p Movies/Series, 500mb, 700mb, 720p Movies/Series, 900mb, Crime Series, Drama Series, English Tv Show, Hindi Tv Show, NetflixDownload Peaky Blinders (Season 1-6) Dual Audio (Hindi-English) Bluray 480p [190MB] || 720p [520MB] || 1080p [1.1GB]</p>
-        <a href="download.html">Download Link</a>
-      </article>
-      <article class="card">
-        <img src="p3.jpg" alt="Movie Poster">
-        <h2>Movie Title</h2>
-        <p> 1080p Movies/Series, 1Gb, 2010-2015, 300MB Movies/Series, 480p Movies/Series, 500mb, 700mb, 720p Movies/Series, 900mb, Crime Series, Drama Series, English Tv Show, Hindi Tv Show, NetflixDownload Peaky Blinders (Season 1-6) Dual Audio (Hindi-English) Bluray 480p [190MB] || 720p [520MB] || 1080p [1.1GB]</p>
-        <a href="download.html">Download Link</a>
-      </article>
-      <article class="card">
-        <img src="p4.jpg" alt="Movie Poster">
-        <h2>Movie Title</h2>
-        <p> 1080p Movies/Series, 1Gb, 2010-2015, 300MB Movies/Series, 480p Movies/Series, 500mb, 700mb, 720p Movies/Series, 900mb, Crime Series, Drama Series, English Tv Show, Hindi Tv Show, NetflixDownload Peaky Blinders (Season 1-6) Dual Audio (Hindi-English) Bluray 480p [190MB] || 720p [520MB] || 1080p [1.1GB]</p>
-        <a href="download.html">Download Link</a>
-      </article>
-      <article class="card">
-        <img src="p2.jpg" alt="Movie Poster">
-        <h2>Movie Title</h2>
-        <p> 1080p Movies/Series, 1Gb, 2010-2015, 300MB Movies/Series, 480p Movies/Series, 500mb, 700mb, 720p Movies/Series, 900mb, Crime Series, Drama Series, English Tv Show, Hindi Tv Show, NetflixDownload Peaky Blinders (Season 1-6) Dual Audio (Hindi-English) Bluray 480p [190MB] || 720p [520MB] || 1080p [1.1GB]</p>
-        <a href="download.html">Download Link</a>
-      </article>
-      <article class="card">
-        <img src="p5.jpg" alt="Movie Poster">
-        <h2>Movie Title</h2>
-        <p> 1080p Movies/Series, 1Gb, 2010-2015, 300MB Movies/Series, 480p Movies/Series, 500mb, 700mb, 720p Movies/Series, 900mb, Crime Series, Drama Series, English Tv Show, Hindi Tv Show, NetflixDownload Peaky Blinders (Season 1-6) Dual Audio (Hindi-English) Bluray 480p [190MB] || 720p [520MB] || 1080p [1.1GB]</p>
-        <a href="download.html">Download Link</a>
-      </article>
-      <article class="card">
-        <img src="p1.jpg" alt="Movie Poster">
-        <h2>Movie Title</h2>
-        <p> 1080p Movies/Series, 1Gb, 2010-2015, 300MB Movies/Series, 480p Movies/Series, 500mb, 700mb, 720p Movies/Series, 900mb, Crime Series, Drama Series, English Tv Show, Hindi Tv Show, NetflixDownload Peaky Blinders (Season 1-6) Dual Audio (Hindi-English) Bluray 480p [190MB] || 720p [520MB] || 1080p [1.1GB]</p>
-        <a href="download.html">Download Link</a>
-      </article>
-      <article class="card">
-        <img src="p2.jpg" alt="Movie Poster">
-        <h2>Movie Title</h2>
-        <p> 1080p Movies/Series, 1Gb, 2010-2015, 300MB Movies/Series, 480p Movies/Series, 500mb, 700mb, 720p Movies/Series, 900mb, Crime Series, Drama Series, English Tv Show, Hindi Tv Show, NetflixDownload Peaky Blinders (Season 1-6) Dual Audio (Hindi-English) Bluray 480p [190MB] || 720p [520MB] || 1080p [1.1GB]</p>
-        <a href="download.html">Download Link</a>
-      </article>
-      <article class="card">
-        <img src="p2.jpg" alt="Movie Poster">
-        <h2>Movie Title</h2>
-        <p> 1080p Movies/Series, 1Gb, 2010-2015, 300MB Movies/Series, 480p Movies/Series, 500mb, 700mb, 720p Movies/Series, 900mb, Crime Series, Drama Series, English Tv Show, Hindi Tv Show, NetflixDownload Peaky Blinders (Season 1-6) Dual Audio (Hindi-English) Bluray 480p [190MB] || 720p [520MB] || 1080p [1.1GB]</p>
-        <a href="download.html">Download Link</a>
-      </article>
-      <article class="card">
-        <img src="p3.jpg" alt="Movie Poster">
-        <h2>Movie Title</h2>
-        <p> 1080p Movies/Series, 1Gb, 2010-2015, 300MB Movies/Series, 480p Movies/Series, 500mb, 700mb, 720p Movies/Series, 900mb, Crime Series, Drama Series, English Tv Show, Hindi Tv Show, NetflixDownload Peaky Blinders (Season 1-6) Dual Audio (Hindi-English) Bluray 480p [190MB] || 720p [520MB] || 1080p [1.1GB]</p>
-        <a href="download.html">Download Link</a>
-      </article>
-      <article class="card">
-        <img src="p4.jpg" alt="Movie Poster">
-        <h2>Movie Title</h2>
-        <p> 1080p Movies/Series, 1Gb, 2010-2015, 300MB Movies/Series, 480p Movies/Series, 500mb, 700mb, 720p Movies/Series, 900mb, Crime Series, Drama Series, English Tv Show, Hindi Tv Show, NetflixDownload Peaky Blinders (Season 1-6) Dual Audio (Hindi-English) Bluray 480p [190MB] || 720p [520MB] || 1080p [1.1GB]</p>
-        <a href="download.html">Download Link</a>
-      </article>
-      <article class="card">
-        <img src="p5.jpg" alt="Movie Poster">
-        <h2>Movie Title</h2>
-        <p> 1080p Movies/Series, 1Gb, 2010-2015, 300MB Movies/Series, 480p Movies/Series, 500mb, 700mb, 720p Movies/Series, 900mb, Crime Series, Drama Series, English Tv Show, Hindi Tv Show, NetflixDownload Peaky Blinders (Season 1-6) Dual Audio (Hindi-English) Bluray 480p [190MB] || 720p [520MB] || 1080p [1.1GB]</p>
-        <a href="download.html">Download Link</a>
-      </article>
-      <article class="card">
-        <img src="p1.jpg" alt="Movie Poster">
-        <h2>Movie Title</h2>
-        <p> 1080p Movies/Series, 1Gb, 2010-2015, 300MB Movies/Series, 480p Movies/Series, 500mb, 700mb, 720p Movies/Series, 900mb, Crime Series, Drama Series, English Tv Show, Hindi Tv Show, NetflixDownload Peaky Blinders (Season 1-6) Dual Audio (Hindi-English) Bluray 480p [190MB] || 720p [520MB] || 1080p [1.1GB]</p>
-        <a href="download.html">Download Link</a>
-      </article>
-      <article class="card">
-        <img src="p2.jpg" alt="Movie Poster">
-        <h2>Movie Title</h2>
-        <p> 1080p Movies/Series, 1Gb, 2010-2015, 300MB Movies/Series, 480p Movies/Series, 500mb, 700mb, 720p Movies/Series, 900mb, Crime Series, Drama Series, English Tv Show, Hindi Tv Show, NetflixDownload Peaky Blinders (Season 1-6) Dual Audio (Hindi-English) Bluray 480p [190MB] || 720p [520MB] || 1080p [1.1GB]</p>
-        <a href="download.html">Download Link</a>
-      </article>
-      <article class="card">
-        <img src="p2.jpg" alt="Movie Poster">
-        <h2>Movie Title</h2>
-        <p> 1080p Movies/Series, 1Gb, 2010-2015, 300MB Movies/Series, 480p Movies/Series, 500mb, 700mb, 720p Movies/Series, 900mb, Crime Series, Drama Series, English Tv Show, Hindi Tv Show, NetflixDownload Peaky Blinders (Season 1-6) Dual Audio (Hindi-English) Bluray 480p [190MB] || 720p [520MB] || 1080p [1.1GB]</p>
-        <a href="download.html">Download Link</a>
-      </article>
-      <!-- Repeat other cards -->
-    </section>
- <section class="pagination">
-  <a href="post.html"><div class="pointer">1</div></a>
-  <a href="post.html"><div class="pointer">2</div></a>
-  <a href="post.html"><div class="pointer">3</div></a>
-  <a href="post.html"><div class="pointer">4</div></a>
-  <a href="post.html"><div class="pointer">5</div></a>
-  <a href="post.html"><div class="pointer">6</div></a>
-  <a href="post.html"><div class="pointer">7</div></a>
-  <a href="post.html"><div class="pointer">8</div></a>
-  <a href="post.html"><div class="pointer">9</div></a>
-  <a href="post.html"><div class="pointer">...</div></a>
-  <a href="post.html"><div class="pointer">187</div></a>
-   
-   
- </section>
+  <!-- movie card -->
+  <section id="reviews" class="cards">
+    <article class="card">
+      <img src="p1.jpg" alt="Movie Poster">
+      <h2>Movie Title</h2>
+      <p> 1080p Movies/Series, 1Gb, 2010-2015, 300MB Movies/Series, 480p Movies/Series, 500mb, 700mb, 720p Movies/Series, 900mb, Crime Series, Drama Series, English Tv Show, Hindi Tv Show, NetflixDownload Peaky Blinders (Season 1-6) Dual Audio (Hindi-English) Bluray 480p [190MB] || 720p [520MB] || 1080p [1.1GB]</p>
+      <a href="download.html">Download Link</a>
+    </article>
 
-    <section id="news" class="cards">
-      <!-- News cards -->
-        <article class="card">
-            <img src="dc-Cover-tk48m06c3tpndkho4p3241epm6-20240113130504.Medi.jpeg" alt="News Image">
-            <h2>Latest Movie News</h2>
-            <p>Stay updated with the latest happenings in the movie industry. Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut, qui natus? Dignissimos quam veniam et excepturi dolorem laboriosam, obcaecati illo.</p>
-            <a href="#">Read More</a>
-        </article>
-        <article class="card">
-            <img src="images.jpeg" alt="News Image">
-            <h2>Upcoming Releases</h2>
-            <p>Check out the most anticipated movies coming soon to theaters. Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor error dolorem, minus voluptates magni fuga officia quod ex earum sunt. </p>
-            <a href="#">Read More</a>
-        </article>
-        <article class="card">
-            <img src="images (1)bty.jpeg" alt="News Image">
-            <h2>Movie Reviews</h2>
-            <p>Read our expert reviews on the latest movie releases. Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam voluptates facilis facere laboriosam accusantium temporibus quaerat, cumque sequi minima aspernatur? </p>
-            <a href="#">Read More</a>
-        </article>
-        <article class="card">
-            <img src="Big-Hits-from-the-Box-Office-Square-Plain.png" alt="News Image">
-            <h2>Box Office Hits</h2>
-            <p>Discover the movies that are topping the box office charts. Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur minus odit cupiditate error ab soluta enim aut consequatur dolorum facilis.</p>
-            <a href="#">Read More</a>
-        </article>
-       
-    </section>
-  </main>
+    <article class="card">
+      <img src="p2.jpg" alt="Movie Poster">
+      <h2>Movie Title</h2>
+      <p> 1080p Movies/Series, 1Gb, 2010-2015, 300MB Movies/Series, 480p Movies/Series, 500mb, 700mb, 720p Movies/Series, 900mb, Crime Series, Drama Series, English Tv Show, Hindi Tv Show, NetflixDownload Peaky Blinders (Season 1-6) Dual Audio (Hindi-English) Bluray 480p [190MB] || 720p [520MB] || 1080p [1.1GB]</p>
+      <a href="download.html">Download Link</a>
+    </article>
 
-  <footer>
-    <p>&copy; 2025 Movies Verse. All rights reserved.</p>
-  </footer>
+    <article class="card">
+      <img src="p3.jpg" alt="Movie Poster">
+      <h2>Movie Title</h2>
+      <p> 1080p Movies/Series, 1Gb, 2010-2015, 300MB Movies/Series, 480p Movies/Series, 500mb, 700mb, 720p Movies/Series, 900mb, Crime Series, Drama Series, English Tv Show, Hindi Tv Show, NetflixDownload Peaky Blinders (Season 1-6) Dual Audio (Hindi-English) Bluray 480p [190MB] || 720p [520MB] || 1080p [1.1GB]</p>
+      <a href="download.html">Download Link</a>
+    </article>
+    <article class="card">
+      <img src="p4.jpg" alt="Movie Poster">
+      <h2>Movie Title</h2>
+      <p> 1080p Movies/Series, 1Gb, 2010-2015, 300MB Movies/Series, 480p Movies/Series, 500mb, 700mb, 720p Movies/Series, 900mb, Crime Series, Drama Series, English Tv Show, Hindi Tv Show, NetflixDownload Peaky Blinders (Season 1-6) Dual Audio (Hindi-English) Bluray 480p [190MB] || 720p [520MB] || 1080p [1.1GB]</p>
+      <a href="download.html">Download Link</a>
+    </article>
+    <article class="card">
+      <img src="p5.jpg" alt="Movie Poster">
+      <h2>Movie Title</h2>
+      <p> 1080p Movies/Series, 1Gb, 2010-2015, 300MB Movies/Series, 480p Movies/Series, 500mb, 700mb, 720p Movies/Series, 900mb, Crime Series, Drama Series, English Tv Show, Hindi Tv Show, NetflixDownload Peaky Blinders (Season 1-6) Dual Audio (Hindi-English) Bluray 480p [190MB] || 720p [520MB] || 1080p [1.1GB]</p>
+      <a href="download.html">Download Link</a>
+    </article>
+    <article class="card">
+      <img src="p1.jpg" alt="Movie Poster">
+      <h2>Movie Title</h2>
+      <p> 1080p Movies/Series, 1Gb, 2010-2015, 300MB Movies/Series, 480p Movies/Series, 500mb, 700mb, 720p Movies/Series, 900mb, Crime Series, Drama Series, English Tv Show, Hindi Tv Show, NetflixDownload Peaky Blinders (Season 1-6) Dual Audio (Hindi-English) Bluray 480p [190MB] || 720p [520MB] || 1080p [1.1GB]</p>
+      <a href="download.html">Download Link</a>
+    </article>
+    <article class="card">
+      <img src="p2.jpg" alt="Movie Poster">
+      <h2>Movie Title</h2>
+      <p> 1080p Movies/Series, 1Gb, 2010-2015, 300MB Movies/Series, 480p Movies/Series, 500mb, 700mb, 720p Movies/Series, 900mb, Crime Series, Drama Series, English Tv Show, Hindi Tv Show, NetflixDownload Peaky Blinders (Season 1-6) Dual Audio (Hindi-English) Bluray 480p [190MB] || 720p [520MB] || 1080p [1.1GB]</p>
+      <a href="download.html">Download Link</a>
+    </article>
+    <article class="card">
+      <img src="p3.jpg" alt="Movie Poster">
+      <h2>Movie Title</h2>
+      <p> 1080p Movies/Series, 1Gb, 2010-2015, 300MB Movies/Series, 480p Movies/Series, 500mb, 700mb, 720p Movies/Series, 900mb, Crime Series, Drama Series, English Tv Show, Hindi Tv Show, NetflixDownload Peaky Blinders (Season 1-6) Dual Audio (Hindi-English) Bluray 480p [190MB] || 720p [520MB] || 1080p [1.1GB]</p>
+      <a href="download.html">Download Link</a>
+    </article>
+    <article class="card">
+      <img src="p4.jpg" alt="Movie Poster">
+      <h2>Movie Title</h2>
+      <p> 1080p Movies/Series, 1Gb, 2010-2015, 300MB Movies/Series, 480p Movies/Series, 500mb, 700mb, 720p Movies/Series, 900mb, Crime Series, Drama Series, English Tv Show, Hindi Tv Show, NetflixDownload Peaky Blinders (Season 1-6) Dual Audio (Hindi-English) Bluray 480p [190MB] || 720p [520MB] || 1080p [1.1GB]</p>
+      <a href="download.html">Download Link</a>
+    </article>
+    <article class="card">
+      <img src="p2.jpg" alt="Movie Poster">
+      <h2>Movie Title</h2>
+      <p> 1080p Movies/Series, 1Gb, 2010-2015, 300MB Movies/Series, 480p Movies/Series, 500mb, 700mb, 720p Movies/Series, 900mb, Crime Series, Drama Series, English Tv Show, Hindi Tv Show, NetflixDownload Peaky Blinders (Season 1-6) Dual Audio (Hindi-English) Bluray 480p [190MB] || 720p [520MB] || 1080p [1.1GB]</p>
+      <a href="download.html">Download Link</a>
+    </article>
+    <article class="card">
+      <img src="p5.jpg" alt="Movie Poster">
+      <h2>Movie Title</h2>
+      <p> 1080p Movies/Series, 1Gb, 2010-2015, 300MB Movies/Series, 480p Movies/Series, 500mb, 700mb, 720p Movies/Series, 900mb, Crime Series, Drama Series, English Tv Show, Hindi Tv Show, NetflixDownload Peaky Blinders (Season 1-6) Dual Audio (Hindi-English) Bluray 480p [190MB] || 720p [520MB] || 1080p [1.1GB]</p>
+      <a href="download.html">Download Link</a>
+    </article>
+    <article class="card">
+      <img src="p1.jpg" alt="Movie Poster">
+      <h2>Movie Title</h2>
+      <p> 1080p Movies/Series, 1Gb, 2010-2015, 300MB Movies/Series, 480p Movies/Series, 500mb, 700mb, 720p Movies/Series, 900mb, Crime Series, Drama Series, English Tv Show, Hindi Tv Show, NetflixDownload Peaky Blinders (Season 1-6) Dual Audio (Hindi-English) Bluray 480p [190MB] || 720p [520MB] || 1080p [1.1GB]</p>
+      <a href="download.html">Download Link</a>
+    </article>
+    <article class="card">
+      <img src="p2.jpg" alt="Movie Poster">
+      <h2>Movie Title</h2>
+      <p> 1080p Movies/Series, 1Gb, 2010-2015, 300MB Movies/Series, 480p Movies/Series, 500mb, 700mb, 720p Movies/Series, 900mb, Crime Series, Drama Series, English Tv Show, Hindi Tv Show, NetflixDownload Peaky Blinders (Season 1-6) Dual Audio (Hindi-English) Bluray 480p [190MB] || 720p [520MB] || 1080p [1.1GB]</p>
+      <a href="download.html">Download Link</a>
+    </article>
+    <article class="card">
+      <img src="p2.jpg" alt="Movie Poster">
+      <h2>Movie Title</h2>
+      <p> 1080p Movies/Series, 1Gb, 2010-2015, 300MB Movies/Series, 480p Movies/Series, 500mb, 700mb, 720p Movies/Series, 900mb, Crime Series, Drama Series, English Tv Show, Hindi Tv Show, NetflixDownload Peaky Blinders (Season 1-6) Dual Audio (Hindi-English) Bluray 480p [190MB] || 720p [520MB] || 1080p [1.1GB]</p>
+      <a href="download.html">Download Link</a>
+    </article>
+    <article class="card">
+      <img src="p3.jpg" alt="Movie Poster">
+      <h2>Movie Title</h2>
+      <p> 1080p Movies/Series, 1Gb, 2010-2015, 300MB Movies/Series, 480p Movies/Series, 500mb, 700mb, 720p Movies/Series, 900mb, Crime Series, Drama Series, English Tv Show, Hindi Tv Show, NetflixDownload Peaky Blinders (Season 1-6) Dual Audio (Hindi-English) Bluray 480p [190MB] || 720p [520MB] || 1080p [1.1GB]</p>
+      <a href="download.html">Download Link</a>
+    </article>
+    
+    <!-- Repeat other cards -->
+  </section>
+
+  <section class="pagination">
+    <a href="#"><div class="pointer prev-next">« Prev</div></a>
+    
+    <a href="post.html"><div class="pointer active">1</div></a>
+    <a href="post.html"><div class="pointer">2</div></a>
+    <a href="post.html"><div class="pointer">3</div></a>
+    <a href="#"><div class="pointer">...</div></a>
+    <a href="post.html"><div class="pointer">187</div></a>
+    
+    <a href="#"><div class="pointer prev-next">Next »</div></a>
+  </section>
+  
+  <section id="news" class="cards">
+    <!-- News cards -->
+      <article class="card">
+          <img src="dc-Cover-tk48m06c3tpndkho4p3241epm6-20240113130504.Medi.jpeg" alt="News Image">
+          <h2>Latest Movie News</h2>
+          <p>Stay updated with the latest happenings in the movie industry. Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut, qui natus? Dignissimos quam veniam et excepturi dolorem laboriosam, obcaecati illo.</p>
+          <a href="#">Read More</a>
+      </article>
+      <article class="card">
+          <img src="images.jpeg" alt="News Image">
+          <h2>Upcoming Releases</h2>
+          <p>Check out the most anticipated movies coming soon to theaters. Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor error dolorem, minus voluptates magni fuga officia quod ex earum sunt. </p>
+          <a href="#">Read More</a>
+      </article>
+      <article class="card">
+          <img src="images (1)bty.jpeg" alt="News Image">
+          <h2>Movie Reviews</h2>
+          <p>Read our expert reviews on the latest movie releases. Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam voluptates facilis facere laboriosam accusantium temporibus quaerat, cumque sequi minima aspernatur? </p>
+          <a href="#">Read More</a>
+      </article>
+      <article class="card">
+          <img src="Big-Hits-from-the-Box-Office-Square-Plain.png" alt="News Image">
+          <h2>Box Office Hits</h2>
+          <p>Discover the movies that are topping the box office charts. Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur minus odit cupiditate error ab soluta enim aut consequatur dolorum facilis.</p>
+          <a href="#">Read More</a>
+      </article>
+     
+  </section>
+
+  <footer class="site-footer">
+    <div class="footer-links">
+      <a href="#">About Us</a>
+      <a href="#">Report Broken Links</a>
+      <a href="#">Request Us</a>
+      <a href="#">DMCA</a>
+      <a href="#">Contact Us</a>
+      <a href="#">Site Disclaimer</a>
+    </div>
+    <p>&copy; 2025 Movies Verse. All rights reserved
+  
+  
+  
 </body>
 </html>
