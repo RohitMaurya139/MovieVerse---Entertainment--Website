@@ -1,2 +1,2 @@
 # MovieVerse---Entertainment -Website
-see project: https://movieverse-rohit-maurya-001.netlify.app/
+see project: https://movieverse-by-rohit-maurya.netlify.app/
