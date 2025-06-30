@@ -3,30 +3,30 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>e>MovieVerse | Movie-Page</title>
-    <link rel="stylesheet" href="styles.css" />
+    <title>MovieVerse| Movie-Page</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="shortcut icon" href="Capture.PNG" type="image/x-icon">
+  <!-- Free Font Awesome CDN (No account needed) -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.5.0/css/all.min.css" />
+
 </head>
 <body>
-    <header>
-        <div class="container">
-          <div class="logo">
-            <h1>MovieVerse</h1>
-          </div>
-          <nav>
-            <ul class="nav-links">
-                <li><a href="index.html">Home</a></li>
-              <li><a href="#">Movies</a></li>
-              <li><a href="#">Year</a></li>
-              <li><a href="#">Quality</a></li>
-              <li><a href="#">Genre</a></li>
-            </ul>
-          </nav>
-          <div class="search-bar">
-            <input type="text" placeholder="Search movies...">
-            <button type="submit">Search</button>
-          </div>
-        </div>
-      </header>
+  <header class="navbar">
+    <div class="logo-search">
+      <a href="index.html"><div class="logo">MOVIES<span class="glow">VERSE</span></div></a>
+      
+      <div class="search-box">
+        <input type="text" placeholder="What are you looking for?" />
+        <button title="Search"><i class="fas fa-search"></i></button>
+      </div>
+     
+    </div>
+
+    <div class="top-buttons">
+      <button class="btn red" id="redbtn">Bollywood</button>
+      <button class="btn green" id="greenbtn">AnimeFlix</button>
+    </div>
+  </header>
       <main>
         <section id="reviews" class="cards">
             <article class="card">
@@ -234,25 +234,29 @@
              
             <!-- Repeat other cards -->
           </section>
-       <section class="pagination">
-          
-        
-        <a href="post.html"><div class="pointer">2</div></a>
-        <a href="post.html"><div class="pointer">3</div></a>
-        <a href="post.html"><div class="pointer">4</div></a>
-        <a href="post.html"><div class="pointer">5</div></a>
-        <a href="post.html"><div class="pointer">6</div></a>
-        <a href="post.html"><div class="pointer">7</div></a>
-        <a href="post.html"><div class="pointer">8</div></a>
-        <a href="post.html"><div class="pointer">9</div></a>
-        <a href="post.html"><div class="pointer">...</div></a>
-        <a href="post.html"><div class="pointer">187</div></a>
-         
-       </section>
+          <section class="pagination">
+            <a href="#"><div class="pointer prev-next">« Prev</div></a>
+            
+            
+            <a href="post.html"><div class="pointer">2</div></a>
+            <a href="post.html"><div class="pointer">3</div></a>
+            <a href="#"><div class="pointer">...</div></a>
+            <a href="post.html"><div class="pointer">187</div></a>
+            <a href="post.html"><div class="pointer active">188</div></a>
+            
+            <a href="#"><div class="pointer prev-next">Next »</div></a>
+          </section>
       </main>
 
-      <footer>
-        <p>&copy; 2025 Movies Verse. All rights reserved.</p>
-      </footer>
+      <footer class="site-footer">
+        <div class="footer-links">
+          <a href="#">About Us</a>
+          <a href="#">Report Broken Links</a>
+          <a href="#">Request Us</a>
+          <a href="#">DMCA</a>
+          <a href="#">Contact Us</a>
+          <a href="#">Site Disclaimer</a>
+        </div>
+        <p>&copy; 2025 Movies Verse. All rights reserved
 </body>
 </html>
